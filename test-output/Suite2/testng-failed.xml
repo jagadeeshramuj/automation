@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="Failed suite [Suite2]">
+  <test name="Authenticateduser(failed)">
+    <classes>
+      <class name="test.travelhopesTest.SearchFlightTest">
+        <methods>
+          <include name="setupPreReqs"/>
+        </methods>
+      </class> <!-- test.travelhopesTest.SearchFlightTest -->
+      <class name="test.travelhopesTest.SearchHotelTest">
+        <methods>
+          <include name="setupPreReqs"/>
+        </methods>
+      </class> <!-- test.travelhopesTest.SearchHotelTest -->
+      <class name="test.travelhopesTest.homePageTest">
+        <methods>
+          <include name="testclickHomePage"/>
+          <include name="testclickMyRewards"/>
+          <include name="setupPreReqs"/>
+        </methods>
+      </class> <!-- test.travelhopesTest.homePageTest -->
+    </classes>
+  </test> <!-- Authenticateduser(failed) -->
+</suite> <!-- Failed suite [Suite2] -->
