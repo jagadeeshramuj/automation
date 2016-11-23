@@ -1,0 +1,15 @@
+[
+"testcase":
+{
+ "City" : "Singapore",
+ "Country" : "Singapore",
+ "CheckIn" : "2017-01-18",
+ "CheckOut" : "2017-01-20",
+ "RoomFormat" : "room1=2",
+ "Currency" : "SGD",
+ "Token" : "1111111111111111",
+ "Nesting" : "false",
+ "Nationality" : "SG",
+ "Page" : "0"
+}
+]

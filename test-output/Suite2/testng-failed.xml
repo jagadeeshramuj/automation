@@ -10,13 +10,12 @@
       </class> <!-- test.travelhopesTest.SearchFlightTest -->
       <class name="test.travelhopesTest.SearchHotelTest">
         <methods>
+          <include name="testFindHotels"/>
           <include name="setupPreReqs"/>
         </methods>
       </class> <!-- test.travelhopesTest.SearchHotelTest -->
       <class name="test.travelhopesTest.homePageTest">
         <methods>
-          <include name="testclickHomePage"/>
-          <include name="testclickMyRewards"/>
           <include name="setupPreReqs"/>
         </methods>
       </class> <!-- test.travelhopesTest.homePageTest -->

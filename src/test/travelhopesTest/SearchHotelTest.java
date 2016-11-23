@@ -18,6 +18,6 @@ public class SearchHotelTest {
 	
 	@Test(enabled=true)
 	public void testFindHotels(){
-		hotel.FindHotels();
+		hotel.testTravellandaProvider();
 		}
 	}

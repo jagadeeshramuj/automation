@@ -3,14 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="test.travelhopesTest.homePageTest">
+      <class name="test.travelhopesTest.SearchHotelTest">
         <methods>
-          <include name="testclickActivities"/>
-          <include name="testclickHomePage"/>
-          <include name="testclickMyRewards"/>
+          <include name="testFindHotels"/>
           <include name="setupPreReqs"/>
         </methods>
-      </class> <!-- test.travelhopesTest.homePageTest -->
+      </class> <!-- test.travelhopesTest.SearchHotelTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

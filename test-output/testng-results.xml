@@ -1,111 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="2" failed="0" total="4" passed="2">
+<testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite2" duration-ms="46754" started-at="2016-11-08T23:39:50Z" finished-at="2016-11-08T23:40:37Z">
+  <suite name="Default suite" duration-ms="306777" started-at="2016-11-23T17:12:51Z" finished-at="2016-11-23T17:17:58Z">
     <groups>
     </groups>
-    <test name="Authenticateduser" duration-ms="46754" started-at="2016-11-08T23:39:50Z" finished-at="2016-11-08T23:40:37Z">
-      <class name="test.travelhopesTest.SearchFlightTest">
-        <test-method status="PASS" signature="setupPreReqs()[pri:0, instance:test.travelhopesTest.SearchFlightTest@ff5b51f]" name="setupPreReqs" is-config="true" duration-ms="4384" started-at="2016-11-08T23:40:20Z" finished-at="2016-11-08T23:40:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupPreReqs -->
-        <test-method status="PASS" signature="search()[pri:0, instance:test.travelhopesTest.SearchFlightTest@ff5b51f]" name="search" duration-ms="1914" started-at="2016-11-08T23:40:25Z" finished-at="2016-11-08T23:40:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- search -->
-      </class> <!-- test.travelhopesTest.SearchFlightTest -->
+    <test name="Default test" duration-ms="306777" started-at="2016-11-23T17:12:51Z" finished-at="2016-11-23T17:17:58Z">
       <class name="test.travelhopesTest.SearchHotelTest">
-        <test-method status="PASS" signature="setupPreReqs()[pri:0, instance:test.travelhopesTest.SearchHotelTest@55d56113]" name="setupPreReqs" is-config="true" duration-ms="26612" started-at="2016-11-08T23:39:50Z" finished-at="2016-11-08T23:40:17Z">
+        <test-method status="PASS" signature="setupPreReqs()[pri:0, instance:test.travelhopesTest.SearchHotelTest@617faa95]" name="setupPreReqs" is-config="true" duration-ms="11575" started-at="2016-11-23T17:12:51Z" finished-at="2016-11-23T17:13:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupPreReqs -->
-        <test-method status="PASS" signature="testFindHotels()[pri:0, instance:test.travelhopesTest.SearchHotelTest@55d56113]" name="testFindHotels" duration-ms="3773" started-at="2016-11-08T23:40:17Z" finished-at="2016-11-08T23:40:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testFindHotels -->
-      </class> <!-- test.travelhopesTest.SearchHotelTest -->
-      <class name="test.travelhopesTest.homePageTest">
-        <test-method status="FAIL" signature="setupPreReqs()[pri:0, instance:test.travelhopesTest.homePageTest@148080bb]" name="setupPreReqs" is-config="true" duration-ms="0" started-at="2016-11-08T23:40:27Z" finished-at="2016-11-08T23:40:27Z">
+        <test-method status="FAIL" signature="testFindHotels()[pri:0, instance:test.travelhopesTest.SearchHotelTest@617faa95]" name="testFindHotels" duration-ms="295167" started-at="2016-11-23T17:13:03Z" finished-at="2016-11-23T17:17:58Z">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Timed out waiting for page load.
-Command duration or timeout: 10.01 seconds
+              <![CDATA[Timed out after 30 seconds waiting for visibility of element located by By.xpath: .//*[@class='hotelsresultblog'][@name='travellanda']/div[2]/div[2]/div[2]
 Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
 System info: host: 'tz-automation', ip: '100.72.16.19', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=41.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: abb7f2b1-c7b6-434d-9727-ce68bb4ad688]]>
+Session ID: a4d1d6d1-13b7-41db-bcbc-6dfe5ad0d4a2]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Timed out waiting for page load.
-Command duration or timeout: 10.01 seconds
+              <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for visibility of element located by By.xpath: .//*[@class='hotelsresultblog'][@name='travellanda']/div[2]/div[2]/div[2]
 Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
 System info: host: 'tz-automation', ip: '100.72.16.19', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=41.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: abb7f2b1-c7b6-434d-9727-ce68bb4ad688
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:311)
-	at main.travelhopesPages.homePage.<init>(homePage.java:16)
-	at test.travelhopesTest.homePageTest.setupPreReqs(homePageTest.java:17)
+Session ID: a4d1d6d1-13b7-41db-bcbc-6dfe5ad0d4a2
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:79)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at main.travelhopesPages.searchHotelPage.FindHotels(searchHotelPage.java:98)
+	at main.travelhopesPages.searchHotelPage.testTravellandaProvider(searchHotelPage.java:150)
+	at test.travelhopesTest.SearchHotelTest.testFindHotels(SearchHotelTest.java:21)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:517)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:140)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
-	at org.testng.TestRunner.privateRun(TestRunner.java:771)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1032)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-Caused by: org.openqa.selenium.TimeoutException: Timed out waiting for page load.
-Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
-System info: host: 'tz-automation', ip: '100.72.16.19', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'
-Driver info: driver.version: unknown
-	at <anonymous class>.Utils.initWebLoadingListener/<(file:///C:/Users/TZ-AUT~1/AppData/Local/Temp/2/anonymous4602215825890243184webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9010)
-	at <anonymous class>.WebLoadingListener/e(file:///C:/Users/TZ-AUT~1/AppData/Local/Temp/2/anonymous4602215825890243184webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:5114)
-	at <anonymous class>.WebLoadingListener/<(file:///C:/Users/TZ-AUT~1/AppData/Local/Temp/2/anonymous4602215825890243184webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:5122)
-	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/TZ-AUT~1/AppData/Local/Temp/2/anonymous4602215825890243184webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:621)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupPreReqs -->
-        <test-method status="SKIP" signature="testclickHomePage()[pri:0, instance:test.travelhopesTest.homePageTest@148080bb]" name="testclickHomePage" duration-ms="1" started-at="2016-11-08T23:40:37Z" finished-at="2016-11-08T23:40:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testclickHomePage -->
-        <test-method status="SKIP" signature="testclickMyRewards()[pri:0, instance:test.travelhopesTest.homePageTest@148080bb]" name="testclickMyRewards" duration-ms="0" started-at="2016-11-08T23:40:37Z" depends-on-methods="test.travelhopesTest.homePageTest.testclickHomePage" finished-at="2016-11-08T23:40:37Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method homePageTest.testclickMyRewards()[pri:0, instance:test.travelhopesTest.homePageTest@148080bb] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method homePageTest.testclickMyRewards()[pri:0, instance:test.travelhopesTest.homePageTest@148080bb] depends on not successfully finished methods
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1063)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
 	at org.testng.TestRunner.privateRun(TestRunner.java:771)
@@ -122,13 +57,48 @@ Driver info: driver.version: unknown
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//*[@class='hotelsresultblog'][@name='travellanda']/div[2]/div[2]/div[2]"}
+Command duration or timeout: 24 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'tz-automation', ip: '100.72.16.19', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=41.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a4d1d6d1-13b7-41db-bcbc-6dfe5ad0d4a2
+*** Element info: {Using=xpath, value=.//*[@class='hotelsresultblog'][@name='travellanda']/div[2]/div[2]/div[2]}
+	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:490)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:730)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:39)
+	at org.openqa.selenium.support.ui.ExpectedConditions$4.apply(ExpectedConditions.java:130)
+	at org.openqa.selenium.support.ui.ExpectedConditions$4.apply(ExpectedConditions.java:126)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 27 more
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//*[@class='hotelsresultblog'][@name='travellanda']/div[2]/div[2]/div[2]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'tz-automation', ip: '100.72.16.19', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/TZ-AUT~1/AppData/Local/Temp/2/anonymous8943472765076014369webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10659)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/TZ-AUT~1/AppData/Local/Temp/2/anonymous8943472765076014369webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10668)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/TZ-AUT~1/AppData/Local/Temp/2/anonymous8943472765076014369webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/TZ-AUT~1/AppData/Local/Temp/2/anonymous8943472765076014369webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12539)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/TZ-AUT~1/AppData/Local/Temp/2/anonymous8943472765076014369webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12481)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testclickMyRewards -->
-      </class> <!-- test.travelhopesTest.homePageTest -->
-    </test> <!-- Authenticateduser -->
-  </suite> <!-- Suite2 -->
+        </test-method> <!-- testFindHotels -->
+      </class> <!-- test.travelhopesTest.SearchHotelTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
